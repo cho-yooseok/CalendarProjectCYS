@@ -1,13 +1,12 @@
-package com.example.calendarprojectcys;
+package com.sparta.calendarproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalendarProjectCysApplication {
+public class CalendarProjectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CalendarProjectCysApplication.class, args);
+        SpringApplication.run(CalendarProjectApplication.class, args);
     }
-
 }
