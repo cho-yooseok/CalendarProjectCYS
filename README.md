@@ -1,8 +1,8 @@
 # CalendarProjectCYS
 
 
+![calendar_erd_cys.png](src/main/resources/calendar_erd_cys.png)
 
-![img.png](img.png)
 
 
 https://documenter.getpostman.com/view/42104801/2sAYkKJdYw
