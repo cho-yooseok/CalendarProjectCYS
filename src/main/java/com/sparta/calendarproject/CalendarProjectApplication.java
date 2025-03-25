@@ -11,10 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication; // Spring B
 public class CalendarProjectApplication {
 
     public static void main(String[] args) {
-        // SpringApplication.run() 메서드:
-        // - 스프링 부트 애플리케이션을 부트스트랩(초기화)하고 실행합니다.
-        // - 첫 번째 매개변수: 메인 설정 클래스 (현재 클래스)
-        // - 두 번째 매개변수: main 메서드로 전달받은 커맨드라인 인자들
         SpringApplication.run(CalendarProjectApplication.class, args);
     }
 }
