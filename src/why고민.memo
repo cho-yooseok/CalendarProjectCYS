@@ -1,0 +1,36 @@
+1. 적절한 관심사 분리를 적용하셨나요? (Controller, Service, Repository)
+
+네 적절한 관심사 분리를 적용한것같습니다
+
+Controller (CalendarController) 부분
+클라이언트의 요청을 받아 Service에 전달하고, 응답을 처리합니다
+@RestController 및 @RequestMapping("/api") 를 통해 API 엔드포인트를 제공합니다
+
+Service(CalendarService)
+비즈니스 로직을 처리하는 역할을 수행합니다
+Repository에서 데이터를 가져오고, 필요한 검증 및 변환 작업을 수행합니다
+데이터검증(예 : 비밀번호 확인)을 담당합니다
+
+Repository (CalendarRepository)
+데이터베이스와 직접 상호작용하는 역할을 수행합니다
+JdbcTemplate을 이용해 SQL쿼리를 실행하고, 데이터를 저장 및 조회합니다
+
+
+
+2. RESTful한 API를 설계하셧나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?
+RESTful하게 설계하였다고 생각합니다
+(1) 리소스를 명확하게 표현하였습니다.
+/api/calendar -> 일정 생성
+/api/lists -> 전체 일정 조회
+/api/lists/{id} -> 특정 일정 조회
+@@GetMapping, @PostMapping, @PutMapping, @DeleteMapping을 사용하여
+ HTTP 메서드를 적절히 활용함
+
+
+3. 수정, 삭제 API의 request를 어떤 방식으로 사용하셨나요? (param, query, body)
+수정 API (PUT / {id})
+방식 : @RequestBody 사용
+
+삭제 API (DELETE / {id})
+방식: @RequestParam으로 비밀번호 전달
+
