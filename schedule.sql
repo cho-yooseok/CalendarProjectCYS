@@ -14,10 +14,6 @@ create table calendar (
                           updateDate timestamp default current_timestamp on update current_timestamp
 );
 
-
-
-
-
 -- 공부한 내용 정리
 
 -- 데이터베이스 생성 명령어
