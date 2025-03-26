@@ -4,7 +4,7 @@
 ## 소개
 이 프로젝트는 일정 관리 애플리케이션입니다. 사용자는 일정을 생성, 조회, 수정, 삭제할 수 있습니다. Spring Boot를 사용하여 RESTful API로 구현되었으며, 데이터베이스와 연동하여 일정을 저장합니다.
 
-## ERD
+## ERD설계
 ![calendar_erd_cys.png](src/main/resources/calendar_erd_cys.png)
 
 
@@ -19,12 +19,12 @@ https://documenter.getpostman.com/view/42104801/2sAYkKJdYw
 - **일정 수정**: 사용자는 비밀번호를 통해 기존 일정을 수정할 수 있습니다.
 - **일정 삭제**: 사용자는 비밀번호를 통해 기존 일정을 삭제할 수 있습니다.
 
- 기술 스택
-- 
--
-- 
-- 
-- 
+## 기술 스택
+- Java: Java 17
+- Backend: Spring Boot
+- Database: JdbcTemplate(MySQL)
+- Build Tool: Gradle
+
 
 ## 프로젝트 구조
 ```markdown
@@ -42,7 +42,7 @@ calendar-project/
 │                     └── service/      # 비즈니스 로직 처리 계층
 │   
 └── README.md  
-└── img.png #ERD
+└── img.png #ERD설계
 └── schedule.sql #테이블 생성에 필요한 쿼리문
 
 ```
