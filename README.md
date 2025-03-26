@@ -2,7 +2,7 @@
 # 캘린더 프로젝트
 
 ## 소개
-이 프로젝트는 일정 관리 애플리케이션입니다. 사용자는 일정을 생성, 조회, 수정, 삭제할 수 있습니다. Spring Boot를 사용하여 RESTful API로 구현되었으며, 데이터베이스와 연동하여 일정을 저장합니다.
+이 프로젝트는 내일배움캠프 스프링 과제로 진행한 일정 관리 애플리케이션입니다. 사용자는 일정을 생성, 조회, 수정, 삭제할 수 있습니다. Spring Boot를 사용하여 RESTful API로 구현되었으며, MySQL과 연동하여 일정을 저장합니다.사용자는 일정을 생성, 조회, 수정, 삭제할 수 있습니다. Spring Boot를 사용하여 RESTful API로 구현되었으며, 데이터베이스와 연동하여 일정을 저장합니다.
 
 ## ERD설계
 ![calendar_erd_cys.png](src/main/resources/calendar_erd_cys.png)
