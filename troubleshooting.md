@@ -131,7 +131,4 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 ---
 
-## 결론
-- 스프링과 MySQL을 활용한 개발에서 발생할 수 있는 문제를 해결하는 과정에서 다양한 개념을 학습하고 정리함.
-- 지속적인 복습과 실습을 통해 문제 해결 능력을 키울 것.
 
